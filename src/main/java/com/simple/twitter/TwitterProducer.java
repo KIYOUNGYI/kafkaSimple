@@ -34,10 +34,10 @@ import com.twitter.hbc.httpclient.auth.OAuth1;
  */
 public class TwitterProducer {
 	static Logger logger = LoggerFactory.getLogger(TwitterProducer.class);
-	String consumerKey = "EzpTu2UJIoSv0dHpHnjGSMLt2";
-	String consumerSecret = "HaRZFcnfnW7BAvyEHIuE3Nn4iLEXwaZVLLwpxLJmTk9CcRiMLK";
-	String token = "1181487034386378752-sgjWDzL5o1Wc7Ha1MCHkDbl0qvCor0";
-	String secret = "7iPjNmT2hqAODkHGxsZM8Ho9QhMznIByiHNEUPVGRcaIg";
+	String consumerKey = "";
+	String consumerSecret = "";
+	String token = "";
+	String secret = "";
 	List<String> terms = Lists.newArrayList("Manchester United","bitcoin","usa","sport","soccer");
 
 	public TwitterProducer() {
