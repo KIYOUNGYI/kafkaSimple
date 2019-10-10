@@ -1,0 +1,23 @@
+ack = 0
+no response is requested
+If the broker goes offline or an exception happens, we won't know and will lose data.
+Useful for data where it's okay to potentially lose messages:
+
+ex>
+Metrics collection
+Log collection
+
+ack = 1
+Leader response is requested, but replication is not a gurantee(happens in the background)
+(happens in the background)
+
+if an ack is not received, the producer may retry
+
+
+1]send data to leader
+2]respond to every write request
+
+if the leader broker goes offline but replicas haven't replicated the data yet, we have a data loss  
+
+ack = 2
+Leader + Replicas ack requested

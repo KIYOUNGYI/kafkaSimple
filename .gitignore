@@ -3,3 +3,8 @@ target/
 .settings/
 .classpath
 .project
+.idea/vcs.xml
+.idea/modules.xml
+.idea/misc.xml
+idea/.gitignore
+idea
